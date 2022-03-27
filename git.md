@@ -6,6 +6,22 @@ git 三大区域
 
 - 版本库
 
+```
+1.执行初始化命令
+git init
+2.管理目录下的文件状态
+git status
+注：新增的文件和修改过后的文件都是红色
+3.管理指定文件夹（红变绿）
+git add 文件名
+git add .
+4.个人信息配置：用户名、邮箱【一次即可】
+git config --global user.email 'you@example.com'
+git config --global user.name 'Your Name'
+5.生成版本
+git commit -m '描述信息'
+```
+
 回滚
 
 ```
